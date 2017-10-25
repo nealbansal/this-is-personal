@@ -1,0 +1,91 @@
+body {
+  background-color: #EFE0B9;
+}
+ul {
+  vertical-align: baseline;
+}
+#main-menu {
+  background: white;
+  color: black;
+  padding: 15px 0;
+  position: relative;
+}
+#main-menu li, #main-menu li a {
+  display: inline;
+}
+#main-menu ul {
+  display: inline-block;
+}
+#main-menu li {
+  font-size: 14px;
+  padding: 0 150px;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-weight: bold;
+}
+#main-menu a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+#header {
+  margin: 60px auto;
+  display: block;
+  line-height: 0%; !important;
+  text-align: center;
+}
+.Sub-Main {
+  font-size: 14px; !important;
+  font-weight: none; !important;
+  font-style: italic; !important;
+}
+#articles .noms {
+ width: 340px;
+ float: left;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 30px 0px 90px;
+}
+#articles #the-other-two {
+  width: 750px;
+ float: left;
+ margin: 0px;
+ padding: 0px;
+
+}
+#the-other-two .attractions {
+  width: 340px;
+ float: left;
+  padding: 0px 10px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+#the-other-two .history {
+ width: 340px;
+ float: right;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 30px 0px 0px;
+}
+article {
+  border-bottom: 1px solid gray;
+  padding: 10px 0px 0px 0px;
+}
+#articles h2, h4, p {
+  text-align: center;
+  line-height: 40%;
+}
+#articles h2 {
+  font-size: 24px;
+  line-height:100%;
+}
+#articles h4 {
+  font-size: 18px;
+  font-weight:none;
+  font-style: italic;
+}
+#articles p {
+  line-height: 100%
+}
+article img {
+  display: block;
+  margin: auto;
+  width: 320px;
+}
